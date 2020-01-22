@@ -9,10 +9,13 @@ def directors_totals(nds)
   # an [array] of directors {hashes} that contains movie [arrays] with {hash} of movie properties
   #format as follows:
   #nds[array_index][hash_key][array_index][hash_key]
+  
   director_index = 0
   while director_index < nds.length do
     movie_index = 0
+    # movie = 
     while movie_index < nds[director_index][:movies][movie_index].length do
+      nds[director_index][:movies][]
       
       movie_index += 1
     end
