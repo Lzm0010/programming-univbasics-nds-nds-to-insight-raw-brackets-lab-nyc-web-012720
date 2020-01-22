@@ -10,9 +10,9 @@ def directors_totals(nds)
   result = {
   }
   #
-  # Use loops, variables and the accessing method, [], to loop through the NDS
-  # and total up all the
-  pp nds
+  # an [array] of directors {hashes} that contains movie [arrays] with {hash} of movie properties
+  director_index = 0
+  while director_index < nds.length
  
  
   # Be sure to return the result at the end!
