@@ -25,6 +25,7 @@ def directors_totals(nds)
     
     #push director and gross to hash
     result[director] = movies_revenue
+    
     director_index += 1
   end
  
